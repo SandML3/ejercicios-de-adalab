@@ -1,0 +1,38 @@
+.contenedor {
+    padding: 0;
+    width: 1030px;
+    background-color: rgb(213, 232, 238);
+    border: solid 1px rgb(34, 61, 73);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:left;
+    
+   
+    
+}
+.imagen {
+    width: 60px;
+}
+
+.imagen3,
+.imagen7,
+.imagen11 {
+    margin-top: 4px;
+    height: 45px;
+}
+
+.item {
+    list-style: none;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(22, 24, 44);
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+ 
+}
+

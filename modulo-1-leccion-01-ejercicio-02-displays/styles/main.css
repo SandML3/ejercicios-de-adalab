@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    margin: 5rem;
+    width: 20rem;
+    height: 30rem;
+    background-color: #FFEEEE;
+    padding-top: 2rem;
+}
+
+.imagen {
+    width: 5rem;
+    margin-top: .2rem;
+}
+
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.hightlight {
+    font-weight: bolder;
+    color: palevioletred;
+}
+
+.texto {
+    position: relative;
+    left: 32%;
+}
+
+/* .block {
+    display: flex;
+}
+
+.inline {
+    display: flex;
+} */
+
+/* .all {
+    display: inline;
+    
+} */
