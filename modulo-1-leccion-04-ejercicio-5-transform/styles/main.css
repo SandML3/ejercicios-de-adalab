@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  margin: 5%;
+  position: absolute;
+}
+
+.link-text {
+  font-weight: bold;
+}
+
+.link-text .link {
+  position: fixed;
+  left: 100%;
+  transform: translate(-180%,0);
+  background-color: rgb(230, 52, 52);
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: smaller;
+  text-decoration: none;
+}
+
+.texto {
+  margin-top: 14px;
+  text-align: justify;
+}

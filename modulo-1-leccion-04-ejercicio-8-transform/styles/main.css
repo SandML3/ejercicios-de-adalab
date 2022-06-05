@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.header {
+  margin: 50px;
+  margin-top: 70px;
+}
+
+.header .title {
+  margin-bottom: 50px;
+  color: rgb(44, 50, 68);
+  font-weight: bolder;
+}
+
+.main {
+ position: relative;
+
+}
+
+.main .texto {
+  margin: 20px;
+  margin-left: 60px;
+}
+
+.main .cookies-window {
+  background-color: hsl(0, 0%, 100%, 90%);
+  box-shadow: 5px 5px 10px;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  transform: translate(0%, 80%);
+  height: 200px;
+  width: 90%;
+  transform: translate(5%, 0);
+  padding: 50px;
+  text-align: justify;
+}
+
+.footer {
+  background-color:rgb(166, 196, 216,0.9);
+  display: flex;
+  width: 100vw;
+  height: 90px;
+  position:static;
+  margin-top: 50px;
+  padding: 30px;
+  
+}
+
+.footer .company-name {
+  font-size: 12px;
+  color: rgb(44, 50, 68);
+}
+
+.footer .social-media {
+  position: absolute;
+  right: 0;
+  transform: translate(10%,0);
+  margin-right: 60px;
+}
+
+.footer .social-media .icono-enlace {
+   display: inline;
+   padding: 5px;
+  
+}
+
+.footer .social-media .icono {
+  text-decoration: none;
+  color: rgb(44, 50, 68);
+  transform: scale(1.3);
+}

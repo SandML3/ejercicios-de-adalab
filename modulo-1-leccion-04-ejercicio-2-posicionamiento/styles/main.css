@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 30px;
+    position: relative;
+    top: 50px;
+    z-index: 0;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(175, 128, 202);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.paragraph {
+    padding: 5px;
+    text-align: justify;
+}

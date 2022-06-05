@@ -1,0 +1,33 @@
+
+.div1 {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 218, 52);
+    padding: 95px;
+    border: 2px;
+    box-sizing: border-box;
+}
+
+.div2 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(86, 192, 127);
+    padding: 75px;
+    box-sizing: border-box;
+   
+}
+
+.div3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(140, 218, 231);
+    border: 20px dotted rgb(120, 176, 185);
+    box-sizing: border-box;
+
+
+}
+
+.div2,
+.div3 {
+    position: absolute;
+}

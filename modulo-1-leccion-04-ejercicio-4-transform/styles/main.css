@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.texto {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 86vw;
+  text-align: justify;
+  max-width: 600px;
+}
