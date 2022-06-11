@@ -1,0 +1,12 @@
+.main .text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.main .text .image {
+    display: inline-block; 
+    float: right;
+}
+

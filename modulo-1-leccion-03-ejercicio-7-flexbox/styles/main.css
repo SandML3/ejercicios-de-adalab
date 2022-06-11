@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(110, 108, 108);
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.box {
+    background-color: rgb(187, 187, 187);
+}
+
+.box1 {
+    width: 6%;
+    height: 5rem;
+    border-radius: .7rem;
+}
+
+.business {
+    width: 60%;
+}
+
+.center {
+    text-align: left;
+}
+
+.center .name {
+    font-weight: 600;
+    color: black;
+}
+
+.appointment {
+    color: white;
+    border-radius: .7rem;
+}
+
+.options {
+    display: flex;
+    gap: .8rem
+}
+
+.options .option {
+    padding: .6rem;
+    width: 18ch;
+    text-align: center;
+}
+
+.options .budget {
+    border: 2.5px solid rgb(187, 187, 187);
+    border-radius: .7rem;
+}
+
+.ratings {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}

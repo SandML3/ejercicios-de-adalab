@@ -1,0 +1,32 @@
+
+.container1 {
+    background-color: rgb(189, 219, 219);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__text {
+        font-family: $font-main;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+.container2 {
+    font-family: $font-main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+     
+    &_title {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 30px 0px 10px;
+    }
+
+
+}

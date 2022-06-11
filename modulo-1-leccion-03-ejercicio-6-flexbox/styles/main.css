@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100vw;
+    min-width: 960px;
+    font-weight: 600;
+}
+
+.aside {
+    width: 40%;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.header {
+    background-color: rgb(247, 83, 54);
+    text-align: center;
+    padding: .5rem;
+}
+
+.aside1 {
+    background-color: rgb(255, 187, 0);
+}
+
+.text {
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.aside2 {
+    background-color: rgb(214, 52, 119);
+}
+
+.footer {
+    background-color: rgb(118, 184, 118);
+    text-align: center;
+    padding: .5rem;
+}

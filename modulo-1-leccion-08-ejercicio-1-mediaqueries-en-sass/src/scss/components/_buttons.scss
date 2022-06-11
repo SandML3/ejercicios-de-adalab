@@ -1,0 +1,24 @@
+button {
+    margin-top: 10px;
+    border: 5px solid $button-color;
+    background-color: $button-color;
+    border-radius: 30px;
+    height: 45px;
+    width: 8rem;
+    padding: 0rem 1.5rem;
+    color: white;
+
+    &:hover {
+        color: grey;
+        border: 5px solid $button-hover;
+        background-color: $button-hover;
+    }
+
+    
+    &:active {
+        color: grey;
+        border: 5px solid $button-hover;
+        background-color: $button-hover;
+        transform: scale(0.9);
+    }
+}

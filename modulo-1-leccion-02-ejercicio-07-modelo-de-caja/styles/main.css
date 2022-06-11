@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, san-serif;
+    padding: 16px;
+  }
+  
+  .page-title {
+    margin: 0;
+  }
+  
+  .main {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .user-info {
+    width: 300px;
+    padding: 8px 16px;
+    margin: 16px;
+    border-left: 3px solid #f93af9;
+    background-color: #f3f3f3;
+
+    display: inline;
+    display: inline-block;
+    /* Ningún cambio visible al descomentar estas dos línas. */
+    
+    
+    text-align: center;
+    /* El texto de los contenedores se alinea en el centro. */
+  }
+  
+  .user-info * {
+    display: inline;
+  }
+  
+  .user-info__name {
+    margin: 8px 0;
+  }
+  
+  .user-info__mail {
+    display: inline-block;
+    max-width: 284px;
+    padding: 4px;
+    margin-bottom: 8px;
+    background-color: #d4d4d4;
+    color: #f93af9;
+    text-decoration: none;
+    font-weight: bold;
+    
+     
+    *overflow-x: scroll; 
+    /* Aparece una barra de scroll lateral en el contenedor de Juana redondo, ya que el texto se desborda de su contenedor. */
+    
+    
+    overflow: hidden;
+    /* Este valor sobrescribe el anterior ya que responde a la misma propiedad y está escrito después (css y su cascada) y en este caso lo que hacemos es ocultar el texto que sobresale del contenedor, en vez de permitir el scroll lateral */
+    text-overflow: ellipsis;
+    /* Con esta propiedad en el valor "ellipsis" se añaden puntos suspensivos antes de ocultar la parte de la frase que sobresale, indicando así que no se ve el texto completo. */
+  }

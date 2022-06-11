@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px;
+}
+
+.container .h1 {
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.container .paragraph {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@media all and (min-width: 768px) {
+    .container {
+        margin: 30px 40px;
+    }
+    
+    .container .h1 {
+        font-weight: bolder;
+        font-size: 28px;
+    }
+
+    .container .paragraph {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media all and (min-width: 1140px) {
+    .container {
+        margin: 190px auto;
+        max-width: 750px;
+    }
+    
+    .container .h1 {
+        font-weight: bolder;
+        font-size: 42px;
+    }
+
+    .container .paragraph {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}

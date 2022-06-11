@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+  }
+  .smiley {
+    width: 10rem;
+    height: 10rem;
+    line-height: 10rem;
+    text-align: center;
+    font-family: "courier new";
+    font-weight: bold;
+    font-size: 5rem;
+    color: #424242;
+    background: #ffcc00;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+
+  /* Sin "reiniciar" el tamaño de fuente, el valor necesario de rem para que el careto mida 50x50px es 3.125rem.
+  Para que mida 200x200px el valor de rem sería 12.5, o bien, con el reseteo de font-size por defecto, 20rem.*/

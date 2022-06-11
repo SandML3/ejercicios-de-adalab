@@ -1,0 +1,137 @@
+:root {
+    --maincolor: #CC212A;
+
+}
+
+html {
+    font-family: 'Monserrat', sans-serif;
+    font-family: 62.5%;
+}
+
+.body .main {
+    height: 100vh;
+    background-color: white;
+}
+
+.body .main .container {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    
+}
+
+.body .main .text {
+    color: var(--maincolor);
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    min-height: 100px;
+    background-color: white;
+    border-top: 4px solid var(--maincolor);
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    bottom: 2.3rem;
+}
+
+.footer .circle {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: var(--maincolor);
+    text-align: center;
+    line-height: 4rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.hexadecimal:hover {
+    transform: scale(1.1);
+    line-height: -3rem;
+    
+}
+
+@media all and (min-width: 768px) {
+    
+    .footer .container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 2rem;
+        top: 1rem;
+    }
+
+    .footer .circle {
+        position: relative;
+        bottom: 1rem;
+        transform: scale(.8);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footer .circle {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: var(--maincolor);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 4rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.footer .copyright {
+    text-align: center;
+    position: relative;
+    bottom: .8rem;
+}
+
+@media all and (min-width: 768px) {
+    
+    .footer .circle {
+        transform: translate(470%, 25%) scale(.8);
+    }
+
+    .footer .copyright {
+        left: -20rem;
+    }
+} */

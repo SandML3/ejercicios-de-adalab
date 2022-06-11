@@ -1,0 +1,19 @@
+
+
+
+.main {
+    width: 80vw;
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+.main .text {
+    text-align: justify;
+}
+
+.main .image {
+    display: inline-block;
+    box-sizing: border-box;
+    float: right;
+    margin-left: 30px;
+}
