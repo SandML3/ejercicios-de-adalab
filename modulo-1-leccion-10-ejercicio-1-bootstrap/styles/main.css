@@ -1,0 +1,36 @@
+.container-fluid {
+    width: 90%;
+    color: antiquewhite;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    grid-column: span 2;
+    background-color: pink;
+    height: 100px;
+}
+
+.menu {
+    background-color: rgb(140, 93, 179);
+    height: 300px;
+}
+
+.content {
+    background-color: rgb(182, 79, 79);
+    grid-column: span 3;
+    height: 300px;
+}
+
+.footer {
+    background-color: rgb(168, 233, 241);
+    height: 100px;
+}

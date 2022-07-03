@@ -1,0 +1,12 @@
+.header--active {
+  background-color: rgb(94, 177, 177);
+  height: 20px;
+}
+
+.item--active {
+color: brown;
+}
+
+.highlight {
+  background-color: yellow;
+}

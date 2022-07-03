@@ -1,0 +1,13 @@
+.name-form {
+    padding: 50px;
+    padding-left: 50px;
+}
+
+.colorfull {
+    background-color: rgb(77, 76, 76);
+    color: white;
+    font-weight: bolder;
+    border: transparent;
+    padding: 5px;
+    border-radius: 5px;
+}

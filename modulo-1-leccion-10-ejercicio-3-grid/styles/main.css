@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    width: 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: "header header" "main aside" "footer footer";
+    gap: 5px;
+  }
+  .item {
+    background: #89ece1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item--header {
+    grid-column: span 2;
+  }
+ 
+  .item--footer {
+    grid-area: footer;
+  }
+  

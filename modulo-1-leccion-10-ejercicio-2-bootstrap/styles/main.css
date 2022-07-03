@@ -1,0 +1,17 @@
+main {
+    width: 90vw;
+    margin: 0 auto;
+
+}
+
+.grey {
+    background-color: rgb(247, 244, 244);
+    margin-right: 30px;
+    height: 30px;
+}
+
+.green {
+    background-color: rgb(94, 231, 213);
+    margin-right: 30px;
+    height: 25px;
+}

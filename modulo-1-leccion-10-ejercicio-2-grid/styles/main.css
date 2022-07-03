@@ -1,0 +1,43 @@
+html {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 50vh;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: .6fr 2fr .6fr;
+}
+
+.item{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.item1 {
+    background-color: pink;
+    grid-column: span 3;
+}
+
+.item2 {
+  background-color: rgb(78, 51, 128);
+}
+
+.item3 {
+  background-color: rgb(189, 90, 90);
+  grid-column: span 2;
+}
+
+.item4 {
+  background-color: rgb(152, 229, 243);
+  grid-column: span 3;
+}

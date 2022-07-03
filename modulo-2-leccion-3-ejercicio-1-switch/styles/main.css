@@ -1,0 +1,26 @@
+.success {
+    border: 2px darkolivegreen solid;
+    background-color: rgb(120, 165, 120);
+    color: darkolivegreen;
+}
+
+.error {
+    border: 2px darkred solid;
+    background-color: lightcoral;
+    color: darkred;
+}
+
+.warning {
+    border: 2px goldenrod solid;
+    background-color: lightyellow;
+    color: goldenrod;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 5px;
+    padding-left: 50px;
+}
