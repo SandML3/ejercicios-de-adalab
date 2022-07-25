@@ -1,0 +1,26 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.palettes {
+    background-color: rgb(231, 231, 231);
+    padding: 2rem;
+    height: 70vh;
+}
+
+.palette__colors {
+    display: flex;
+}
+
+.palette__color {
+    height: 30px;
+    width: 30px;
+}
+
+.palettes__list {
+    list-style: none;
+}
+
+.palettes__list h2 {
+    font-size: 20px;
+}
